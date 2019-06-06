@@ -58,6 +58,7 @@ Public Class P_Principal
 
         Me.WindowState = FormWindowState.Maximized
 
+        _prCargarImagenesFondo()
         _prCargarLogo()
 
 
@@ -65,7 +66,24 @@ Public Class P_Principal
         _prLogin()
 
     End Sub
-
+    Private Sub _prCargarImagenesFondo()
+        MetroTilePanel1.BackgroundImage = Presentacion.My.Resources._3
+        MetroTilePanel1.BackgroundImageLayout = ImageLayout.Stretch
+        MetroTilePanel2.BackgroundImage = Presentacion.My.Resources.Fondo2
+        MetroTilePanel2.BackgroundImageLayout = ImageLayout.Stretch
+        MetroTilePanel3.BackgroundImage = Presentacion.My.Resources.Fondo2
+        MetroTilePanel3.BackgroundImageLayout = ImageLayout.Stretch
+        MetroTilePanel4.BackgroundImage = Presentacion.My.Resources._1
+        MetroTilePanel4.BackgroundImageLayout = ImageLayout.Stretch
+        MetroTilePanel5.BackgroundImage = Presentacion.My.Resources.Fondo2
+        MetroTilePanel5.BackgroundImageLayout = ImageLayout.Stretch
+        MetroTilePanel6.BackgroundImage = Presentacion.My.Resources.Fondo2
+        MetroTilePanel6.BackgroundImageLayout = ImageLayout.Stretch
+        MetroTilePanel7.BackgroundImage = Presentacion.My.Resources._6
+        MetroTilePanel7.BackgroundImageLayout = ImageLayout.Stretch
+        MetroTilePanel8.BackgroundImage = Presentacion.My.Resources.Fondo2
+        MetroTilePanel8.BackgroundImageLayout = ImageLayout.Stretch
+    End Sub
     Private Sub _prCargarLogo()
         'gs_CarpetaRaiz
         Dim exists As Boolean

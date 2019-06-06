@@ -115,7 +115,7 @@
     </Reference>
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Gma.QrCodeNet.Encoding">
-      <HintPath>C:\Librerias\Qrcode_Barcode\Gma.QrCodeNet.Encoding.dll</HintPath>
+      <HintPath>C:\librerias_\QrCode\Gma.QrCodeNet.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Data.v3">
       <HintPath>C:\Librerias\Janus\Janus.Data.v3.dll</HintPath>
@@ -130,7 +130,7 @@
       <HintPath>C:\Librerias\Janus\Janus.Windows.GridEX.v3.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Windows.Ribbon.v3">
-      <HintPath>C:\Librerias\Janus v3\Janus.Windows.Ribbon.v3.dll</HintPath>
+      <HintPath>C:\librerias_\Janus\Janus.Windows.Ribbon.v3.dll</HintPath>
     </Reference>
     <Reference Include="Janus.Windows.UI.v3">
       <HintPath>C:\Librerias\Janus\Janus.Windows.UI.v3.dll</HintPath>

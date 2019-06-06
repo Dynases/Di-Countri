@@ -115,7 +115,7 @@
     </Reference>
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Gma.QrCodeNet.Encoding">
-      <HintPath>C:\Librerias\Qrcode_Barcode\Gma.QrCodeNet.Encoding.dll</HintPath>
+      <HintPath>C:\librerias_\QrCode\Gma.QrCodeNet.Encoding.dll</HintPath>
     </Reference>
     <Reference Include="GMap.NET.Core">
       <HintPath>C:\Librerias\Gmap\GMap.NET.Core.dll</HintPath>
@@ -146,7 +146,7 @@
       <HintPath>C:\Librerias\Janus\Janus.Windows.UI.v3.dll</HintPath>
     </Reference>
     <Reference Include="OnBarcode.Barcode.WinForms">
-      <HintPath>C:\Librerias\Qrcode_Barcode\OnBarcode.Barcode.WinForms.dll</HintPath>
+      <HintPath>C:\librerias_\QrCode\OnBarcode.Barcode.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -2013,6 +2013,13 @@
     <None Include="Resources\I512x512_image_view.png" />
     <None Include="Resources\clase_reforzamiento_programar.png" />
     <None Include="Resources\logo.png" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\Fondo2.PNG" />
+    <Content Include="Resources\1.jpg" />
+    <Content Include="Resources\2.jpg" />
+    <Content Include="Resources\4.jpg" />
+    <Content Include="Resources\5.jpg" />
+    <Content Include="Resources\6.jpg" />
     <Content Include="Resources\OK.png" />
     <None Include="Resources\SOCIO.png" />
     <None Include="Resources\PAGOS.png" />
