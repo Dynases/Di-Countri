@@ -14,6 +14,11 @@ Public Class ModeloF1
 
 #Region "METODOS PRIVADOS"
     Public Sub _PMIniciarTodo()
+        PanelSuperior.Style.BackColor1.Color = Color.Navy
+        PanelSuperior.Style.BackColor2.Color = Color.DodgerBlue
+
+        PanelInferior.Style.BackColor1.Color = Color.Navy
+        PanelInferior.Style.BackColor2.Color = Color.DodgerBlue
         TxtNombreUsu.Text = MGlobal.gs_usuario
         TxtNombreUsu.ReadOnly = True
         Me.WindowState = FormWindowState.Maximized
@@ -23,6 +28,7 @@ Public Class ModeloF1
         _PMInhabilitar()
         _PMOHabilitarFocus()
         AddHandler JGrM_Buscador.SelectionChanged, AddressOf JGrM_Buscador_SelectionChanged
+
     End Sub
     Private Sub _PMCargarBuscador()
         Dim dtBuscador As DataTable = _PMOGetTablaBuscador()

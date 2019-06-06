@@ -23,4 +23,11 @@
         End If
     End Sub
 
+    Private Sub ModeloF0_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        PanelSuperior.Style.BackColor1.Color = Color.Navy
+        PanelSuperior.Style.BackColor2.Color = Color.DodgerBlue
+
+        PanelInferior.Style.BackColor1.Color = Color.Navy
+        PanelInferior.Style.BackColor2.Color = Color.DodgerBlue
+    End Sub
 End Class

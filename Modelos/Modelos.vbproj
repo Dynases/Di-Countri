@@ -298,6 +298,9 @@
     <None Include="Resources\usuario.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\add.png" />
+    <None Include="Resources\atras.png" />
+    <None Include="Resources\back-1.png" />
     <Content Include="Resources\BUSCAR.png" />
     <None Include="Resources\NUEVO.png" />
     <None Include="Resources\EDITAR3.png" />
@@ -308,10 +311,19 @@
     <None Include="Resources\SALIR.png" />
     <None Include="Resources\PRINT.png" />
     <None Include="Resources\GENERAR_REPORTE.png" />
-    <None Include="Resources\save.png" />
     <None Include="Resources\switch-2.png" />
     <None Include="Resources\switch-3.png" />
     <None Include="Resources\folder.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\trash.png" />
+    <None Include="Resources\printee.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\derechaDoble.png" />
+    <None Include="Resources\derechaLine.png" />
+    <None Include="Resources\izquierda2.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\logo02.png" />
+    <None Include="Resources\checked.png" />
     <Content Include="Resources\WARNING_AMARILLO.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
